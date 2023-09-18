@@ -1,0 +1,36 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# Built output (if applicable)
+dist/
+build/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS files
+.DS_Store
+
+# Thumbnails
+._*
+
+# Windows thumbnail files
+Thumbs.db
+
+# User-specific files
+npm-debug.log
+yarn-error.log
+
+# Ignore npm's default package manager
+package-lock.json
