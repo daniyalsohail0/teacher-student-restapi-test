@@ -1,4 +1,3 @@
-// suspendStudentController.ts
 import { Request, Response } from "express";
 import StudentModel, { IStudent } from "../models/studentModel";
 
