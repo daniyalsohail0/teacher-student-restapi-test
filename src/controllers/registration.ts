@@ -1,4 +1,3 @@
-// registrationController.ts
 import { Request, Response } from "express";
 import TeacherModel, { ITeacher } from "../models/teacherModel";
 import StudentModel, { IStudent } from "../models/studentModel";

@@ -28,7 +28,6 @@ const retrieveForNotifications = async (req: Request, res: Response) => {
     console.log("Mentioned Students:", mentionedStudents);
 
     // Query eligible students based on mentioned students and teacher's students
-    // Query eligible students based on mentioned students and teacher's students
     const eligibleStudents: IStudent[] = await StudentModel.find({
       $or: [
         {
@@ -40,7 +39,7 @@ const retrieveForNotifications = async (req: Request, res: Response) => {
           suspended: false,
         },
       ],
-      suspended: false, // Ensure that the student is not suspended
+      suspended: false,
     });
 
     // Extract unique email addresses of eligible students

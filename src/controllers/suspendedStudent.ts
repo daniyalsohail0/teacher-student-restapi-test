@@ -16,7 +16,7 @@ const suspendStudent = async (req: Request, res: Response) => {
       return res.status(404).json({ error: "Student not found" });
     }
 
-    // Mark the student as suspended (you may have a 'suspended' field in your schema)
+    // Mark the student as suspended
     studentRecord.suspended = true;
 
     // Save the updated student record
